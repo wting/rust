@@ -36,7 +36,7 @@ pub mod task;
 
 
 // XXX: this should not exist here
-#[cfg(stage0)]
+#[cfg(stage0, lolwut)]
 #[lang = "start"]
 pub fn lang_start(main: *u8, argc: int, argv: **u8) -> int {
     use std::cast;
